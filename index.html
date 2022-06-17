@@ -3,35 +3,52 @@
 <title>민진's Family</title>
 <meta charset="utf-8">
 <style>
-body{background:url(주왕산.gif) NO-REPEAT;background-size: cover;}
+body{background:url(주왕산.png) NO-REPEAT;background-size: cover;}
 header{border-bottom: 2px solid black;margin-top: 20px;}
 span{font-size: 35px;}
-ol{text-align: right;margin-top: -45px;}
-li{display: inline-block;font-size: 22px;margin: 15px;}
-a{color: skyblue;text-decoration: none;}
-a:hover{color: #64DB99;}
-#number{font-size: 30px;margin: -1px; margin-bottom: -10px;}
+ul{text-align: right;margin-top: -45px;}
+li{display: inline-block;}
+#menu{color: skyblue;text-decoration: none;font-size: 22px;margin: 15px;}
+#menu:hover{color: #64DB99;}
+a{text-decoration: none;}
+a:visited{color: black;}
+a:hover{color:skyblue;}
+form{text-align: right;margin-right: 205px; margin-top: -30px;}
+select{font-size: 1.2rem;}
+#number{font-size: 30px;margin: -1px; margin-bottom: -20px;margin-right: 1000px;}
 #headline{font-size: 60PX;margin-top: 200px; margin-left: 50px;color: #BE5A5A;}
+#text{text-align: left;margin-left: 1300px;margin-top: -50px;}
 footer{border-top: 1px solid black;margin-top: 350px;}
 </style>
 </head>
 <body>
   <header>
-    <strong><span>민진's'Family</span>
-    <ol>
-    <a href="1.html"><li>DADDY</li></a>
-    <a href="2.html"><li>MAMMY</li></a>
-    <a href="3.html"><li>ME</li></a>
-    <a href="4.html"><li>태훈</li></a>
-    <a href="5.html"><li>도훈</li></a>
-    </ol>
+      <strong><a href="index.html"><span>민진's Family</span></a>
+        <ul>
+        <a href="1.html"><li id="menu">DADDY</li></a>
+        <a href="2.html"><li id="menu">MAMMY</li></a>
+        <a href="3.html"><li id="menu">ME</li></a>
+        <a href="4.html"><li id="menu">태훈</li></a>
+        <a href="5.html"><li id="menu">도훈</li></a>
+      </ul>
   </header>
 </strong>
 <P id="headline"><strong>민진이네<br>가족을 소개합니다.</strong><P>
   <footer>
 문의사항<br>
-<strong> <p id="number">010-8663-1864</p></strong><br>
+<strong> <p id="number">010-8663-1864</p>
+  <p id="text">관련서비스</p></strong><br>
+  <form action="https://mollymj.github.io/my-fist-web-site/">
+  <select>
+  <option>내소개</option>
+  <option>토앤몽</option>
+</select>
+<input type="submit">
+</form>
 상담시간:평일 09:00~17:30 (점심시간 12:00~13:00) / 주말&공휴일 휴무
+
+
+
   </footer>
 </body>
 </html>
